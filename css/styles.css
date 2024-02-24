@@ -20,6 +20,7 @@ ul, ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    list-style: none;
 }
 
 li {
@@ -39,7 +40,6 @@ img {
     text-decoration: none;
     color: #404bbf;
     position: relative;
-    padding: 24px 0;
     display: block;
 }
 
@@ -104,6 +104,7 @@ img {
     color: #4D5AE5;
     display: flex;
     margin-right: 76px;
+    text-decoration: none;
 }
 
 .text-logo {
@@ -555,7 +556,7 @@ img {
 }
 
 .footer-social {
-    margin-left: 120px;
+    margin-right: 80px;
 }
 
 .p-footer {
@@ -606,8 +607,6 @@ img {
 }
 
 .footer-subscrib {
-    display: flex;
-    gap: 24px;
 }
 
 .footer-adress-text {
@@ -792,6 +791,7 @@ img {
 }
 
 .review-form-input-icon {
+    fill: #2E2F42;
     position: absolute;
     top: 50%;
     left: 16px;
